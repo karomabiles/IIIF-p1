@@ -1,0 +1,66 @@
+{
+  "id" : "https://karomabiles.github.io/IIIF-p1/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in karomabiles/IIIF-p1 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3844,
+    "id" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559/canvas/",
+    "label" : {
+      "none" : [ "IMG_9559" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 121,
+              "height" : 91
+            }, {
+              "width" : 241,
+              "height" : 181
+            }, {
+              "width" : 481,
+              "height" : 361
+            }, {
+              "width" : 961,
+              "height" : 721
+            }, {
+              "width" : 1922,
+              "height" : 1442
+            }, {
+              "width" : 3844,
+              "height" : 2884
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3844,
+            "@id" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2884
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3844,
+          "id" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2884
+        },
+        "target" : "https://karomabiles.github.io/IIIF-p1/images/IMG_9559/canvas/"
+      } ]
+    } ],
+    "height" : 2884
+  } ]
+}
