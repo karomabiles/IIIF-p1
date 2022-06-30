@@ -1,0 +1,127 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Views at the Cliffs",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A collection of images from the Cliffs of Moher, Ireland",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Katie Romabiles",
+  "sequences" : [ {
+    "@id" : "http://723fed4d-4078-48c1-a203-da0f2882ab5a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://86d7b788-7169-43a6-9ebe-3c7d550a17e0",
+      "@type" : "sc:Canvas",
+      "label" : "Cliffs of Moher",
+      "height" : 2884,
+      "width" : 3844,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6cc3e273-b3a6-4c68-aba1-8864aa125849",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-9559_202206/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-9559_202206",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2884,
+          "width" : 3844
+        },
+        "on" : "http://86d7b788-7169-43a6-9ebe-3c7d550a17e0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ea69c98b-028c-463e-a0b6-d92c5790a434",
+      "@type" : "sc:Canvas",
+      "label" : "Cows of Moher",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://74f854c1-4968-45d6-a0ab-0c772ed4adb3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-9545/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-9545",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://ea69c98b-028c-463e-a0b6-d92c5790a434"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0e0c3b96-90ad-4030-bc6a-9edab8b4813c",
+      "@type" : "sc:Canvas",
+      "label" : "Dog of Moher",
+      "height" : 2734,
+      "width" : 3645,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1d1ca64e-c50b-474a-a6cf-0ca8f8135da4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-9576_202206/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-9576_202206",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2734,
+          "width" : 3645
+        },
+        "on" : "http://0e0c3b96-90ad-4030-bc6a-9edab8b4813c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c6ceebc5-bf3a-4d57-a954-bec3fa418670",
+      "@type" : "sc:Canvas",
+      "label" : "O'Brien's Tower",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ef3ac35a-f40f-44b6-ae6a-8e867756f1da",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-9546_202206/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-9546_202206",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://c6ceebc5-bf3a-4d57-a954-bec3fa418670"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
