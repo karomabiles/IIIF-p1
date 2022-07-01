@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "O'Brien's Tower",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>O'Brien's Tower</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97981308",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-01T04:27:54",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1656649674898",
+    "dcterms:modified" : "2022-07-01T04:28:10",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1677,1989,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1681.06365,2002.68792c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51038 -2.03507,-4.54545 -4.54545,-4.54545c-2.51038,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null}\" id=\"pin_4745981a-4d40-4bf2-9c92-e67b5f0aef3f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://c6ceebc5-bf3a-4d57-a954-bec3fa418670"
+    } ]
+  } ],
+  "@id" : "https://karomabiles.github.io/IIIF-p1/annotations/41d0db41f94b0a2fc43cea74ad2b3f2e.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
