@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Boat",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Boat</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97981308",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-01T04:25:56",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1656649556111",
+    "dcterms:modified" : "2022-07-01T04:25:56",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=25,1304,311,303"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M70.12403,1348.40516c28.73951,-25.48693 69.28124,-44.46617 110.01944,-44.4435v0v0c40.7382,0.02268 76.228,17.77746 110.01944,44.4435c33.79144,26.66604 46.92574,67.29994 45.57155,107.2961c-1.3542,39.99616 -17.1969,79.35457 -45.57155,107.2961c-28.37465,27.94153 -69.28124,44.46617 -110.01944,44.4435c-40.7382,-0.02268 -81.308,-16.59267 -110.01944,-44.4435c-28.71144,-27.85083 -45.56453,-66.98249 -45.57155,-107.2961c-0.00702,-40.31361 16.83204,-81.80917 45.57155,-107.2961z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_5d62e269-deeb-4baa-ae6d-ceea65109336\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://86d7b788-7169-43a6-9ebe-3c7d550a17e0"
+    } ]
+  } ],
+  "@id" : "https://karomabiles.github.io/IIIF-p1/annotations/3ac57246745a2322889722eafe4f0bb7.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
