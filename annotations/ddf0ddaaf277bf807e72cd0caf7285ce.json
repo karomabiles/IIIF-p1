@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Locally made jewelry for sale",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Locally made jewelry for sale</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97981308",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-01T04:16:48",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1656649008898",
+    "dcterms:modified" : "2022-07-01T04:17:09",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=115,73,367,522"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M114.50909,72.61818h183.61818v0h183.61818v260.85455v260.85455h-183.61818h-183.61818v-260.85455z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,1,1,0],&quot;editable&quot;:true}\" id=\"rectangle_58d61c8e-df81-4310-a86b-5efd9c223121\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"14.4\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://0e0c3b96-90ad-4030-bc6a-9edab8b4813c"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "&euro; 12",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>&euro; 12</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97981308",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-01T04:23:35",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1656649415587",
+    "dcterms:modified" : "2022-07-01T04:23:35",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=357,259,91,69"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M357.09091,258.90909h45.54545v0h45.54545v34.63636v34.63636h-45.54545h-45.54545v-34.63636z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_6992ba0a-26e9-4b63-8873-ccbb12251962\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://0e0c3b96-90ad-4030-bc6a-9edab8b4813c"
+    } ]
+  } ],
+  "@id" : "https://karomabiles.github.io/IIIF-p1/annotations/ddf0ddaaf277bf807e72cd0caf7285ce.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
