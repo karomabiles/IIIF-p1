@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Cow's tag number: 10658",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Cow's tag number: 10658</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97981308",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-01T04:27:11",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1656649631904",
+    "dcterms:modified" : "2022-07-01T04:27:11",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://karomabiles.github.io/IIIF-p1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2340,2301,105,160"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2340.21004,2301.26206h52.36364v0h52.36364v80.09091v80.09091h-52.36364h-52.36364v-80.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_6f6f179e-30e1-47f6-8ce9-e49669c8bfdd\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ea69c98b-028c-463e-a0b6-d92c5790a434"
+    } ]
+  } ],
+  "@id" : "https://karomabiles.github.io/IIIF-p1/annotations/61b341a5bb8a3e2b063c2aaf3fa135e2.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
