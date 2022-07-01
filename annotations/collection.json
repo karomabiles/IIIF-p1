@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://karomabiles.github.io/IIIF-p1/annotations/3ac57246745a2322889722eafe4f0bb7.json" ],
+  "@id" : "https://karomabiles.github.io/IIIF-p1/annotations/collection.json",
+  "label" : "All annotations loaded in karomabiles/IIIF-p1 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
